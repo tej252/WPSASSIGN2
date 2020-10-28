@@ -40,7 +40,7 @@ public class JDBCCachedRowSet {
 	    
 	      int choice;
 	      String[] array ;
-	      String[] attribute = {"Name", "emailId", "dob in dd-mm-yy"};
+	      String[] attribute = {"name", "email", "dob "};
 	      Scanner sc = new Scanner(System.in);
 	      System.out.println("Enter your choice : ");
 	      System.out.println("1. Insert data");
